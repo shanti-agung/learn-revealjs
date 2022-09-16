@@ -4,6 +4,8 @@ subtitle: "What we do in life"
 author: "John Doe"
 insitute: "Pattern Institute"
 date: "May 5, 2018"
+bibliography: references.bib
+csl: apa.csl
 format:
   revealjs: 
     slide-number: true
@@ -15,12 +17,17 @@ format:
 
 - Turn off alarm
 - Get out of bed
+- Test citation [@behrman_2010]
+- Test citation [@glewwe_kremer_2006]
+- In @benabou_tirole_2011 says
+- Then @akerlof_kranton_2000 says
+- Citing Badan Pusat Statistik [@bps_2012]
 
 ## Going to sleep
 
 ::: {.incremental}
 
-- Get in bed
+- Get in bed 
 - Count sheep
 
 :::
@@ -45,3 +52,5 @@ When you click the **Render** button a presentation will be generated that inclu
 ```{r}
 1 + 1
 ```
+
+## References
